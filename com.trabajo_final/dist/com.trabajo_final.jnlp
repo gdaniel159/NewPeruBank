@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="com.trabajo_final.jnlp">
+  <information>
+    <title>com.trabajo_final</title>
+    <vendor>Alumno</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="com.trabajo_final.jar" size="231371" download="eager" />
+    <jar href="lib\mysql-connector-j-8.0.32.jar" size="2480823" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="com.trabajo_final.login"  name="com.trabajo_final" />
+  <update check="always"/>
+</jnlp>
